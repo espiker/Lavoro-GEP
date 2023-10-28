@@ -37,4 +37,14 @@ REQUISITI NON FUNZIONALI:<br>
 -Il programma deve aiutare gli utenti in caso di problemi nel minor tempo possibile;<br>
 <br><br>
 REQUISITI DI DOMINIO:<br>
+-Il programma consentirà agli amministratori di aggiungere, modificare o rimuovere i fumetti e le sue informazioni sul catalogo;<br>
+-Il programma consentirà agli amministratori di aggiungere, modificare o rimuovere le informazioni sugli autori e le notizie relative;<br>
+-Il programma concederà agli utenti di visualizzare le informazioni riguardo l'acquisto dei propri prodotti, come lo stato e le ricevute;<br>
+-Il programma traccierà i vari acquisti degli utenti e dovrà registrarle sul programma;<br>
+-Il programma consentirà agli amministratori di gestire i vari utenti e le loro informazioni generali che sono sul programma;<br>
+-Il programma creerà dei report riguardo le varie vendite, le visualizzazioni, i top acquisti, gli autori più letti;<br>
+
+
+
+
 
