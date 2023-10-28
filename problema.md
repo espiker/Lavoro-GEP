@@ -22,7 +22,7 @@ REQUISITI FUNZIONALI:<br>
 -Il programma deve consentire l'utente di leggere i propri fumetti acquistati dall'applicazione;<br>
 -Il programma deve permettere all'utente di personalizzare la propria lettura, come la visualizzazione delle pagine, grandezza delle pagine e lingua;<br>
 -Il programma deve consentire di segnalare problemi tecnici o altri problemi;<br>
--Il programma deve consentire all'utente registrato di rimanere aggiornato sulle notizie riguardanti gli autori seguiti, come prossime pubblicazioni o curiosità;<br>
+-Il programma deve consentire all'utente registrato di rimanere aggiornato sulle notizie riguardanti gli autori seguiti, come prossime pubblicazioni o curiosità;
 <br><br>
 REQUISITI NON FUNZIONALI:<br>
 -Il programma deve garantire la sicurezza sulle informazioni personali degli utenti, sia nella registrazione che negli acquisti. Si utilizzeranno delle crittografie e sistemi di protezione contro sistemi esterni che potrebbero infastidire l'utente;<br>
@@ -34,7 +34,7 @@ REQUISITI NON FUNZIONALI:<br>
 -Il programma deve concedere le istruzioni per l'utilizzo del programma e per la sua installazione;<br>
 -Il programma deve concedere una documentazione completa riguardo il programma e le sue informazioni base;<br>
 -Il programma deve aggiornare regolarmente il suo catalogo e le informazioni sui prodotti in caso di variazioni;<br>
--Il programma deve aiutare gli utenti in caso di problemi nel minor tempo possibile;<br>
+-Il programma deve aiutare gli utenti in caso di problemi nel minor tempo possibile;
 <br><br>
 REQUISITI DI DOMINIO:<br>
 -Il programma consentirà agli amministratori di aggiungere, modificare o rimuovere i fumetti e le sue informazioni sul catalogo;<br>
