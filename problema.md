@@ -6,7 +6,7 @@ Non solo potrai comprare e leggere i tuoi fumetti preferiti, ma potrai anche rim
 e alle notizie sui tuoi autori preferiti e sui loro prodotti.
 <br><br>
 Problema:<br>
-Si deve progettare un sistema che permetta all'utente di cercare i fumetti. Poi all'utente registrato gli è permesso acquistare i fumetti digitali desiderati, di leggerli/utilizzarli, archiviarli in una libreria dedicata e permettere all'utente di gestire questa libreria personale. Questo sistema dovrà garantire un'efficienza alta e veloce, con un utilizzo semplice e intuibile all'utente, attraverso anche delle istruzioni. Dovrà essere accessibile a tutti quanti e potrà essere utilizzato in tutti i paesi; inoltre dovrà essere affidabile sulla sicurezza della privacy dei singoli utenti, e concederà backup regolari per ogni evenienza. Aiuterà l'utente per ogni segnalazione ricevuta.
+Si deve progettare un sistema che permetta all'utente di cercare i fumetti nell'archivio, attraverso anche degli spunti che saranno segnalati dal programma, i quali sono creati grazie ai report che si formano durante l'utilizzo di altri utenti già presenti. Poi all'utente registrato gli è permesso acquistare i fumetti digitali desiderati, di leggerli/utilizzarli, archiviarli in una libreria dedicata e permettere all'utente di gestire questa libreria personale. Questi utenti potranno accedere in tutta sicurezza attraverso le proprie credenziali e non avranno problemi riguardo il trattamento delle proprie informazioni personali. Questo sistema dovrà garantire un'efficienza alta e veloce, con un utilizzo semplice e intuibile all'utente, attraverso anche delle istruzioni. Dovrà essere accessibile a tutti quanti e potrà essere utilizzato in tutti i paesi; inoltre dovrà essere affidabile sulla sicurezza della privacy dei singoli utenti, e concederà backup regolari per ogni evenienza. Aiuterà l'utente per ogni segnalazione ricevuta attraverso anche degli operatori dedicati.
 <br><br>
 Classificazione dei requisiti:<br>
 REQUISITI FUNZIONALI:<br>
@@ -43,6 +43,8 @@ REQUISITI DI DOMINIO:<br>
 -Il programma traccierà i vari acquisti degli utenti e dovrà registrarle sul programma;<br>
 -Il programma consentirà agli amministratori di gestire i vari utenti e le loro informazioni generali che sono sul programma;<br>
 -Il programma creerà dei report riguardo le varie vendite, le visualizzazioni, i top acquisti, gli autori più letti;<br>
+-Il programma gestirà le informazioni degli utenti in completa sicurezza e senza perdita dei dati sensibili;<br>
+-Il programma permetterà gli utenti ad accedere ai propri account attraverso una richiesta di credenziali che avrà solo l'utente;<br>
 
 
 
