@@ -49,26 +49,29 @@ _REQUISITI DI DOMINIO_:<br>
 # Elenco casi d'uso: <br>
 _Utente visitatore_:
 <br>-Registrare nuovo utente;
-<br>-Cercare un prodotto nell'archivio;
-<br>-Visualizzare le informazioni del prodotto, dopo aver trovato il prodotto;
+<br>-Cercare un prodotto nell'archivio, utilizzando anche dei filtri;
+<br>-Dopo averlo trovato, visualizzare le informazioni del prodotto;
+<br>-Impostare l'applicazione in maniera personalizzata per lingua di sistema;
+<br>-Segnalare problemi generali;
 <br><br>
 _Utente registrato_:
-<br>-Cercare un prodotto nell'archivio;
-<br>-Visualizzare le informazioni del prodotto, dopo aver trovato il prodotto;
-<br>-Loggare con il proprio account;
+<br>-Cercare un prodotto nell'archivio, utilizzando anche dei filtri;
+<br>-Dopo averlo trovato, visualizzare le informazioni del prodotto;
+<br>-Loggare con il proprio account utilizzando le credenziali;
 <br>-Gestire o modificare il proprio account;
-<br>-Organizzare e gestire la propria libreria;
-<br>-Salvare i propri progressi nella libreria;
-<br>-Etichettarli con etichette personalizzate i propri prodotti;
-<br>-Leggere od usufruire i propri prodotti acquistati;
-<br>-Ottenere il prodotto dopo l'acquisto;
-<br>-Acquistare il prodotto con la propria carta;
+<br>-Organizzare e gestire la propria libreria, con etichette e salvataggi dei vari progressi;
+<br>-Leggere od usufruire i propri prodotti acquistati, utilizzando anche delle personalizzazioni per aiutare la lettura;
+<br>-Ottenere il prodotto dopo l'acquisto, utilizzando la propria carta, mostrerà anche lo stato;
+<br>-Segnalare problemi generali;
+<br>-Seguire i propri autori preferiti e rimanere aggiornati riguardo le loro notizie e pubblicazioni;
+<br>-Creare backup per sicurezza;
 <br><br>
 _Amministratore del sistema_:
 <br>-Inserire i prodotti nuovi;
 <br>-Gestire i vari prodotti già inseriti;
 <br>-Rimuovere un prodotto;
-<br>-Aggiornare i contenuti di un prodotto;
+<br>-Aggiornare i contenuti di un prodotto o delle notizie;
+<br>-Gestire i vari utenti che sono presenti;
 <br><br>
 
 ![yuml]([https://yuml.me/diagram/scruffy/usecase/[Utente%20visitatore]-(Registrarsi),%20[Utente%20visitatore]-(Cercare%20il%20prodotto),%20[Utente%20Registrato]-(Loggare),%20[Utente%20Registrato]-(gestire/modificare%20il%20proprio%20account),%20[Utente%20Registrato]-(Cercare%20il%20prodotto),%20(Cercare%20il%20prodotto)%3C(visualizzare%20le%20informazioni%20del%20prodotto),%20[Utente%20Registrato]-(Organizzare/Gestire%20la%20propria%20libreria),%20[Utente%20Registrato]-(Leggere/Usufruire%20i%20propri%20prodotti),%20(Organizzare/Gestire%20la%20propria%20libreria)%3C(Etichettarli),%20(Organizzare/Gestire%20la%20propria%20libreria)%3C(salvare%20i%20propri%20progressi),%20[Utente%20Registrato]-(Ottenere%20il%20prodotto),%20(Ottenere%20il%20prodotto)%3E(Acquistarlo),%20(Acquistarlo)%3E(Inserire%20la%20propria%20carta),%20[Amministratore%20del%20sistema]-(Inserire%20prodotti),%20[Amministratore%20del%20sistema]-(Gestire%20i%20prodotti),%20[Amministratore%20del%20sistema]-(Aggiornare%20i%20contenuti%20di%20un%20prodotto),%20[Amministratore%20del%20sistema]-(Rimuovere%20un%20prodotto)](https://yuml.me/diagram/plain/usecase/[Utente%20Visitatore]-(Registrare%20un%20nuovo%20utente),%20[Utente%20Visitatore]-(Cercare%20un%20prodotto),%20(Cercare%20un%20prodotto)%3C(Utilizzare%20dei%20filtri),%20(Cercare%20un%20prodotto)%3C(Visualizzare%20le%20informazioni),%20[Utente%20Visitatore]-(Personalizzare%20la%20lingua%20utilizzata),%20[Utente%20Visitatore]-(Segnalare%20problemi%20generali),%20[Utente%20Registrato]-(Segnalare%20problemi%20generali),%20[Utente%20Registrato]-(Personalizzare%20la%20lingua%20utilizzata),%20[Utente%20Registrato]-(Cercare%20un%20prodotto),%20[Utente%20Registrato]-(Accedere%20con%20il%20proprio%20account),%20(Accedere%20con%20il%20proprio%20account)%3E(Avere%20le%20proprie%20credenziali),%20(Avere%20le%20proprie%20credenziali)%3E(Registrare%20un%20nuovo%20utente),%20[Utente%20Registrato]-(Gestire%20il%20proprio%20account),%20[Utente%20Registrato]-(Organizzare%20la%20propria%20libreria),%20(Organizzare%20la%20propria%20libreria)%3C(Applicare%20delle%20etichette),%20(Organizzare%20la%20propria%20libreria)%3C(Ordinarla),%20(Organizzare%20la%20propria%20libreria)%3C(Salvare%20i%20progressi),%20[Utente%20Registrato]-(Leggere%20i%20propri%20fumetti),%20(Leggere%20i%20propri%20fumetti)%3C(Impostare%20la%20visualizzazione),%20[Utente%20Registrato]-(Acquistare%20i%20fumetti%20selezionati),%20(Acquistare%20i%20fumetti%20selezionati)%3E(Inserire%20la%20propria%20carta),%20(Acquistare%20i%20fumetti%20selezionati)%3C(Visualizzare%20gli%20stati%20di%20transazione%20e%20le%20ricevute),%20[Utente%20Registrato]-(Seguire%20e%20rimanere%20aggiornati%20riguardo%20gli%20autori%20seguiti%20e%20le%20loro%20pubblicazioni),%20[Utente%20Registrato]-(Creare%20Backup%20di%20sicurezza),%20[Amministratore%20del%20sistema]-(Inserire%20i%20prodotti%20nuovi),%20[Amministratore%20del%20sistema]-(Gestire%20i%20vari%20prodotti),%20[Amministratore%20del%20sistema]-(Rimuovere%20un%20prodotto),%20[Amministratore%20del%20sistema]-(Aggiornare%20i%20contenuti%20di%20un%20prodotto%20o%20delle%20notizie),%20[Amministratore%20del%20sistema]-(Gestire%20i%20vari%20utenti%20presenti))https://yuml.me/diagram/plain/usecase/[Utente%20Visitatore]-(Registrare%20un%20nuovo%20utente),%20[Utente%20Visitatore]-(Cercare%20un%20prodotto),%20(Cercare%20un%20prodotto)%3C(Utilizzare%20dei%20filtri),%20(Cercare%20un%20prodotto)%3C(Visualizzare%20le%20informazioni),%20[Utente%20Visitatore]-(Personalizzare%20la%20lingua%20utilizzata),%20[Utente%20Visitatore]-(Segnalare%20problemi%20generali),%20[Utente%20Registrato]-(Segnalare%20problemi%20generali),%20[Utente%20Registrato]-(Personalizzare%20la%20lingua%20utilizzata),%20[Utente%20Registrato]-(Cercare%20un%20prodotto),%20[Utente%20Registrato]-(Accedere%20con%20il%20proprio%20account),%20(Accedere%20con%20il%20proprio%20account)%3E(Avere%20le%20proprie%20credenziali),%20(Avere%20le%20proprie%20credenziali)%3E(Registrare%20un%20nuovo%20utente),%20[Utente%20Registrato]-(Gestire%20il%20proprio%20account),%20[Utente%20Registrato]-(Organizzare%20la%20propria%20libreria),%20(Organizzare%20la%20propria%20libreria)%3C(Applicare%20delle%20etichette),%20(Organizzare%20la%20propria%20libreria)%3C(Ordinarla),%20(Organizzare%20la%20propria%20libreria)%3C(Salvare%20i%20progressi),%20[Utente%20Registrato]-(Leggere%20i%20propri%20fumetti),%20(Leggere%20i%20propri%20fumetti)%3C(Impostare%20la%20visualizzazione),%20[Utente%20Registrato]-(Acquistare%20i%20fumetti%20selezionati),%20(Acquistare%20i%20fumetti%20selezionati)%3E(Inserire%20la%20propria%20carta),%20(Acquistare%20i%20fumetti%20selezionati)%3C(Visualizzare%20gli%20stati%20di%20transazione%20e%20le%20ricevute),%20[Utente%20Registrato]-(Seguire%20e%20rimanere%20aggiornati%20riguardo%20gli%20autori%20seguiti%20e%20le%20loro%20pubblicazioni),%20[Utente%20Registrato]-(Creare%20Backup%20di%20sicurezza),%20[Amministratore%20del%20sistema]-(Inserire%20i%20prodotti%20nuovi),%20[Amministratore%20del%20sistema]-(Gestire%20i%20vari%20prodotti),%20[Amministratore%20del%20sistema]-(Rimuovere%20un%20prodotto),%20[Amministratore%20del%20sistema]-(Aggiornare%20i%20contenuti%20di%20un%20prodotto%20o%20delle%20notizie),%20[Amministratore%20del%20sistema]-(Gestire%20i%20vari%20utenti%20presenti))
