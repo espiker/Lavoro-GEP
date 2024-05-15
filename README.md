@@ -57,7 +57,7 @@ _Utente registrato_:
 <br>-Cercare un prodotto nell'archivio, utilizzando anche dei filtri;
 <br>-Dopo averlo trovato, visualizzare le informazioni del prodotto;
 <br>-Loggare con il proprio account utilizzando le credenziali;
-<br>-Gestire o modificare il proprio account;
+<br>-<odificare il proprio account;
 <br>-Organizzare e gestire la propria libreria, con etichette e salvataggi dei vari progressi;
 <br>-Leggere od usufruire i propri prodotti acquistati, utilizzando anche delle personalizzazioni per aiutare la lettura;
 <br>-Ottenere il prodotto dopo l'acquisto, utilizzando la propria carta, mostrerà anche lo stato;
@@ -67,36 +67,9 @@ _Utente registrato_:
 <br><br>
 _Amministratore del sistema_:
 <br>-Inserire i prodotti nuovi;
-<br>-Gestire i vari prodotti già inseriti;
 <br>-Rimuovere un prodotto;
 <br>-Aggiornare i contenuti di un prodotto o delle notizie;
-<br>-Gestire i vari utenti che sono presenti;
+<br>-Gestire i vari utenti che sono presenti nel database;
 <br><br>
 
-<img src="https://yuml.me/diagram/scruffy/usecase/[Utente Visitatore]-(Registrare un nuovo utente),
-[Utente Visitatore]-(Cercare un prodotto),
-(Cercare un prodotto)<(Utilizzare dei filtri),
-(Cercare un prodotto)<(Visualizzare le informazioni),
-[Utente Visitatore]-(Personalizzare la lingua utilizzata),
-[Utente Visitatore]-(Segnalare problemi generali),
-[Utente Registrato]-(Segnalare problemi generali),
-[Utente Registrato]-(Personalizzare la lingua utilizzata),
-[Utente Registrato]-(Cercare un prodotto),
-[Utente Registrato]-(Accedere con il proprio account),
-(Accedere con il proprio account)>(Avere le proprie credenziali),
-[Utente Registrato]-(Aggiungere o Cambiare le informazioni del proprio account),
-[Utente Registrato]-(Organizzare la propria libreria),
-(Organizzare la propria libreria)<(Applicare delle etichette),
-(Organizzare la propria libreria)<(Ordinarla),
-(Organizzare la propria libreria)<(Salvare i progressi),
-[Utente Registrato]-(Leggere i propri fumetti),
-(Leggere i propri fumetti)<(Impostare la visualizzazione),
-[Utente Registrato]-(Acquistare i fumetti selezionati),
-(Acquistare i fumetti selezionati)>(Inserire la propria carta),
-(Acquistare i fumetti selezionati)<(Visualizzare gli stati di transazione e le ricevute),
-[Utente Registrato]-(Seguire e rimanere aggiornati riguardo gli autori seguiti e le loro pubblicazioni),
-[Utente Registrato]-(Creare Backup di sicurezza),
-[Amministratore del sistema]-(Inserire i prodotti nuovi),
-[Amministratore del sistema]-(Rimuovere un prodotto),
-[Amministratore del sistema]-(Aggiornare i contenuti di un prodotto o delle notizie),
-[Amministratore del sistema]-(Gestire i vari utenti presenti nel database)">
+<img src="https://yuml.me/diagram/scruffy/usecase/[Utente Visitatore]-(Registrare un nuovo utente),[Utente Visitatore]-(Cercare un prodotto),(Cercare un prodotto)<(Utilizzare dei filtri),(Cercare un prodotto)<(Visualizzare le informazioni),[Utente Visitatore]-(Personalizzare la lingua utilizzata),[Utente Visitatore]-(Segnalare problemi generali),[Utente Registrato]-(Segnalare problemi generali),[Utente Registrato]-(Personalizzare la lingua utilizzata),[Utente Registrato]-(Cercare un prodotto),[Utente Registrato]-(Accedere con il proprio account),(Accedere con il proprio account)>(Avere le proprie credenziali),[Utente Registrato]-(Aggiungere o Cambiare le informazioni del proprio account),[Utente Registrato]-(Organizzare la propria libreria),(Organizzare la propria libreria)<(Applicare delle etichette),(Organizzare la propria libreria)<(Ordinarla),(Organizzare la propria libreria)<(Salvare i progressi),[Utente Registrato]-(Leggere i propri fumetti),(Leggere i propri fumetti)<(Impostare la visualizzazione),[Utente Registrato]-(Acquistare i fumetti selezionati),(Acquistare i fumetti selezionati)>(Inserire la propria carta),(Acquistare i fumetti selezionati)<(Visualizzare gli stati di transazione e le ricevute),[Utente Registrato]-(Seguire e rimanere aggiornati riguardo gli autori seguiti e le loro pubblicazioni),[Utente Registrato]-(Creare Backup di sicurezza),[Amministratore del sistema]-(Inserire i prodotti nuovi),[Amministratore del sistema]-(Rimuovere un prodotto),[Amministratore del sistema]-(Aggiornare i contenuti di un prodotto o delle notizie),[Amministratore del sistema]-(Gestire i vari utenti presenti nel database)">
