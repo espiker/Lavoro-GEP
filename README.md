@@ -22,7 +22,15 @@ _REQUISITI FUNZIONALI_:<br>
 -Il programma deve consentire l'utente di leggere i propri fumetti acquistati dall'applicazione;<br>
 -Il programma deve permettere all'utente di personalizzare la propria lettura, come la visualizzazione delle pagine, grandezza delle pagine e lingua;<br>
 -Il programma deve consentire di segnalare problemi tecnici o altri problemi;<br>
--Il programma deve consentire all'utente registrato di rimanere aggiornato sulle notizie riguardanti gli autori seguiti, come prossime pubblicazioni o curiosità;
+-Il programma deve consentire all'utente registrato di rimanere aggiornato sulle notizie riguardanti gli autori seguiti, come prossime pubblicazioni o curiosità;<br>
+-Il programma consentirà agli amministratori di aggiungere, modificare o rimuovere i fumetti e le sue informazioni sul catalogo;<br>
+-Il programma consentirà agli amministratori di aggiungere, modificare o rimuovere le informazioni sugli autori e le notizie relative;<br>
+-Il programma concederà agli utenti di visualizzare le informazioni riguardo l'acquisto dei propri prodotti, come lo stato e le ricevute;<br>
+-Il programma traccierà i vari acquisti degli utenti e dovrà registrarle sul programma;<br>
+-Il programma consentirà agli amministratori di gestire i vari utenti e le loro informazioni generali che sono sul programma;<br>
+-Il programma creerà dei report riguardo le varie vendite, le visualizzazioni, i top acquisti, gli autori più letti;<br>
+-Il programma gestirà le informazioni degli utenti in completa sicurezza e senza perdita dei dati sensibili;<br>
+-Il programma permetterà gli utenti ad accedere ai propri account attraverso una richiesta di credenziali che avrà solo l'utente;
 <br><br>
 _REQUISITI NON FUNZIONALI_:<br>
 -Il programma deve garantire la sicurezza sulle informazioni personali degli utenti, sia nella registrazione che negli acquisti. Si utilizzeranno delle crittografie e sistemi di protezione contro sistemi esterni che potrebbero infastidire l'utente;<br>
@@ -36,15 +44,6 @@ _REQUISITI NON FUNZIONALI_:<br>
 -Il programma deve aggiornare regolarmente il suo catalogo e le informazioni sui prodotti in caso di variazioni;<br>
 -Il programma deve aiutare gli utenti in caso di problemi nel minor tempo possibile;
 <br><br>
-_REQUISITI DI DOMINIO_:<br>
--Il programma consentirà agli amministratori di aggiungere, modificare o rimuovere i fumetti e le sue informazioni sul catalogo;<br>
--Il programma consentirà agli amministratori di aggiungere, modificare o rimuovere le informazioni sugli autori e le notizie relative;<br>
--Il programma concederà agli utenti di visualizzare le informazioni riguardo l'acquisto dei propri prodotti, come lo stato e le ricevute;<br>
--Il programma traccierà i vari acquisti degli utenti e dovrà registrarle sul programma;<br>
--Il programma consentirà agli amministratori di gestire i vari utenti e le loro informazioni generali che sono sul programma;<br>
--Il programma creerà dei report riguardo le varie vendite, le visualizzazioni, i top acquisti, gli autori più letti;<br>
--Il programma gestirà le informazioni degli utenti in completa sicurezza e senza perdita dei dati sensibili;<br>
--Il programma permetterà gli utenti ad accedere ai propri account attraverso una richiesta di credenziali che avrà solo l'utente;<br>
 
 # Elenco casi d'uso: <br>
 _Utente visitatore_:
